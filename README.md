@@ -15,8 +15,6 @@ presents the information in a user-friendly manner.
 **For security reasons it is recommended to always build the GUI wallet program from GitHub**
 **[source](https://github.com/vaklinov/zclassic-swing-wallet-ui/archive/master.zip).**
 The details of how to build it are described below (easy to follow).
-Users who insist on downloading a binary release may instead 
-use [ZClassic Desktop GUI Wallet - binary release 0.58.2-beta](https://github.com/vaklinov/zclassic-swing-wallet-ui/blob/master/docs/Release_0.58.2-beta.md)
 
 
 1. Operating system and tools
@@ -84,18 +82,6 @@ use [ZClassic Desktop GUI Wallet - binary release 0.58.2-beta](https://github.co
    If you are using Ubuntu (or similar ;) Linux you may instead just use the file manager and 
    right-click on the `ZClassicSwingWalletUI.jar` file and choose the option "Open with OpenJDK 8 Runtime". 
    This will start the ZClassic GUI wallet.
-
-### Donations accepted
-This project is non-commercial in nature and developed by volunteers. If you find the GUI
-Wallet useful, please consider making a donation for its further development. Your contribution matters! Donations 
-are accepted at ZClassic Z address:
-```
-zcaTKUNkohUgYj3C5bTapCKRk7JZapPfvCUj7GGBUWuBikx4sWEs5KSyd93b9jnjJnbDxnApyXyfeG482iJ5HzoC7cz6oob
-```
-or T address:
-```
-t1Ja4g7cERDhQVNhsMMNZ49Pm7i2hjDXUuV
-```
 
 
 ### License
