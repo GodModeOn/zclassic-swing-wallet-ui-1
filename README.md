@@ -1,3 +1,5 @@
+## SECURITY WARNING: As of January 2018 this software wallet is not actively maintained. It may not operate properly with the upstream core/node implementation and it may contain security and/or other vulnerabilities. It is deprecated and should not be used in production!
+
 # [ZClassic](http://zclassic.org) Desktop GUI Wallet
 
 ## Graphical user interface wrapper for the [ZClassic](http://zclassic.org) command line tools
