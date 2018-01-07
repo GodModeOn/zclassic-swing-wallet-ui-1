@@ -37,6 +37,7 @@ import java.awt.event.ActionListener;
 import java.io.File;
 import java.io.IOException;
 import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
@@ -421,8 +422,10 @@ public class DashboardPanel
 			{
 				dPercentage = 100d;
 			}
-			
-			DecimalFormat df = new DecimalFormat("##0.##");
+
+			DecimalFormatSymbols decimalFormatSymbols = DecimalFormatSymbols.getInstance();
+			decimalFormatSymbols.setDecimalSeparator('.');
+			DecimalFormat df = new DecimalFormat("##0.##", decimalFormatSymbols);
 			percentage = df.format(dPercentage);
 			
 			// Also set a member that may be queried
